@@ -1,0 +1,12 @@
+header {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #005C42;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
