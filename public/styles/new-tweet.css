@@ -49,3 +49,8 @@ textarea {
   border-bottom-style: solid;
   border-width: thick;
 }
+
+textarea::placeholder {
+  color: #545149;
+  opacity: 10;
+}

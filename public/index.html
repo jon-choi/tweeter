@@ -56,31 +56,15 @@
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
-        <form method="POST" action="/tweets/">
-          <label for="tweet-text">What are you humming about?</label>
-          <textarea name="text" id="tweet-text" placeholer="What are you humming about?"></textarea>
-            <button type="submit">Tweet</button>
+        <form id="submit-form" method="POST" action="/tweets/">
+          <!-- <label for="tweet-text">What are you humming about?</label> -->
+          <textarea name="text" id="tweet-text" rows="1" placeholder="What are you humming about?"></textarea>
+            <button id="submit-tweet" type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
         </form>
       </section>
 
       <section class="tweet-container">
-        <article class="tweet">
-          <header>
-            <i class="far fa-grimace"></i>
-            <h4>Charlie</h4>
-            <p>@KittonMittons</p>
-          </header>
-          <p>What is this word, ‘spa’? I feel like you’re starting to say a word and you’re not finishing it. Are you trying to say ‘spaghetti’? Are you taking me for a spaghetti day?</p>
-          <footer>
-            <p>10 days ago</p>
-            <div>
-              <i class="fas fa-flag"></i>
-              <i class="fas fa-retweet"></i>
-              <i class="far fa-heart"></i>
-            </div>
-          </footer>
-        </article>
       </section>
     </main>
     </body>
