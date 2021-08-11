@@ -4,7 +4,7 @@
   display: none;
 }
 
-#new-tweet p {
+#new-tweet {
   padding: 15px;
   background-color: #F36060;
   color: #FFFFFF;
@@ -14,10 +14,20 @@
   margin-top: 0px;
 }
 
+#tooLong {
+  border: 2px solid red;
+  color: red;
+  display: none;
+}
+
 .counter {
   margin-top: 5px;
   float: right;
   font-family: 'Bungee', sans-serif;
+}
+
+.negative {
+  color: red;
 }
 
 
@@ -30,16 +40,16 @@ button {
 }
 
 textarea {
+  display: block;
   width: 100%;
+  border: hidden;
+  background-color: #F4F1EC;
+  resize: none;
+  /* width: 100%;
   border-style: none;
   background-color: #F4F1EC;
   color: #545149;
   border-bottom-style: solid;
   border-width: thick;
-  resize: none;
-}
-
-textarea::placeholder {
-  color: #545149;
-  opacity: 1;
+  resize: none; */
 }
