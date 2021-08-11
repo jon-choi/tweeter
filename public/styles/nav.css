@@ -9,6 +9,8 @@ nav {
   padding: 1.5em;
   flex-direction: row;
   z-index: 2;
+  position: fixed;
+  top: 0;
 }
 
 nav span {

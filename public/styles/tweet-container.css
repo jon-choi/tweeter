@@ -17,19 +17,23 @@ article.tweet header {
   height: 74px;
   display: flex;
   flex-direction: row;
-  background-color: #C8C8C8;
+  background-color: #f4f1ec;
 }
 
-article.tweet header p {
-  margin-left: auto;
-  height: 50px;
+article.tweet header i {
+  margin-right: 20px;
+  height: 30px;
+  color: black;
+}
+
+article.tweet header h4 {
   color: black;
 }
 
 article.tweet header p {
   margin: 20px;
   font-size: 20px;
-  color: #F4F1EC;
+  color: black;
   margin-left: auto;
 }
 
