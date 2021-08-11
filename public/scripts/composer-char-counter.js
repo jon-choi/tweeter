@@ -1,11 +1,11 @@
 $(document).ready(function() {
   let tweetMax = 140;
   
-  $('textarea').input(function() {
+  $('textarea').keydown(function() {
     let tweetLength= $(this).val().length;
     let count = tweetMax - tweetLength;
     
-    // traverses the DOM from to 'this' parent
+    // traverses the DOM to 'this' parent
     // then searches children for a child with '.counter' class
     // inputs the value of count into text field.
 

@@ -31,3 +31,7 @@ main {
   background-color: #f4f1ec;
   width: 90%;
 }
+
+#tweet-container {
+  width: 100%;
+}
