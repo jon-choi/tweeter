@@ -1,3 +1,7 @@
+.tweet-container {
+  width: 100%;
+}
+
 article.tweet {
   /* height: 220px; */
   border-style: solid;
@@ -28,6 +32,7 @@ article.tweet header i {
 
 article.tweet header h4 {
   color: black;
+  height: 30px;
 }
 
 article.tweet header p {

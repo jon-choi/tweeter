@@ -2,7 +2,7 @@ $(document).ready(function() {
   let tweetMax = 140;
   
   $('textarea').keydown(function() {
-    let tweetLength= $(this).val().length;
+    let tweetLength = $(this).val().length;
     let count = tweetMax - tweetLength;
     
     // traverses the DOM to 'this' parent
