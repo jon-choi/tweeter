@@ -13,7 +13,7 @@ body > header {
 
 @media (min-width: 850px) {
   body > header {
-    width: 35vw;
+    width: 30vw;
     float: left;
     margin: 170px 0px 0px 100px;
     position: fixed;
