@@ -29,21 +29,22 @@
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+    
+    <!-- Disabling Viewport Zooming -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   </head>
 
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
       <span class="logo">tweeter<i class="fas fa-dove"></i></span>
-      <div class="nav-down">
         <div id="compose-new">
         <span class="nav-tweet">Write a new tweet</br>
-          <button type="button">
-        <i id="double-down" class="fas fa-angle-double-down"></i>
+          <button style=" background-color: transparent;" type="button">
+        <div class="double-down"><i class="fas fa-angle-double-down"></i></div>
       </button>
     </div>
         </span>
-      </div>
     </nav>
 
     <header>

@@ -29,15 +29,9 @@ nav span {
 }
 
 .fa-angle-double-down {
-  padding-top: 10px;
+  padding-top: 0px;
   color: red;
-}
-
-.nav-down {
-  margin: 0.5em;
-  padding-right: 20px;
-  color: white;
-  text-align-last: center;
+  outline: none;
 }
 
 .logo {
@@ -46,14 +40,20 @@ nav span {
   color: white;
 }
 
-#double-down {
+button {
   background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+
+.double-down {
+  margin-top: 5px;
   color: red;
-  border-style: none;
   cursor: pointer;
   animation-name: bounce;
   animation-duration: 1.5s;
-  animation-direction: linear;
   animation-iteration-count: infinite;
 }
 
@@ -63,11 +63,23 @@ nav span {
 }
 
 @keyframes bounce {
-  from {
-    padding: 0px;
+  0% {
+    transform: translateY(0px);
   }
-  to {
-    padding: 3px;
+  100% {
+    transform: translateY(-7px);
   }
 }
 
+@media (max-width: 850px) {
+  nav {
+    background-color: #357ed1;
+    background-image: url("https://www.transparenttextures.com/patterns/washi.png");
+  }
+}
+
+@media (min-width: 851px) {
+  nav span i {
+    color: #6699CC;
+  }
+}

@@ -35,3 +35,11 @@ main {
 #tweet-container {
   width: 100%;
 }
+
+@media (min-width: 850px) {
+  main {
+    margin: 120px 50px 50px 50px;
+    width: 50vw;
+    float: right;
+  }
+}
