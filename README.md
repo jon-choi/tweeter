@@ -14,6 +14,12 @@ This repository is the starter code for the project: Students will fork and clon
 6. Keep your thoughts concise! You only have 140 characters to do so. 
 7. Please keep it PG if you can. :)
 
+## Screenshots
+
+!['A view of the desktop screen with some amazing tweets!'](https://github.com/jon-choi/tweeter/blob/bb29494bd9b7604c4e2c96bc965c2f775adcdc84/docs/Desktop-View.png)
+!['A shot of someone trying to submit a tweet without typing anything.'](https://github.com/jon-choi/tweeter/blob/master/docs/Error-Message-No-Text.png?raw=true)
+!['A shot of someone going over the character limit.'](https://github.com/jon-choi/tweeter/blob/master/docs/Error-Message-Too-Long.png?raw=true)
+!['A shot of how the page looks on a tablet.'](https://github.com/jon-choi/tweeter/blob/master/docs/Tablet-View.png?raw=true)
 ## Dependencies
 
 - Express
