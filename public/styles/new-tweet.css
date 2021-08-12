@@ -20,6 +20,12 @@
   display: none;
 }
 
+#noText {
+  border: 2px solid red;
+  color: red;
+  display: none;
+}
+
 .counter {
   margin-top: 5px;
   float: right;

@@ -22,9 +22,9 @@ $(document).ready(function() {
             <h4>${tweetObj.user.name}</h4>
             <p>${tweetObj.user.handle}</p>
           </header>
-          <p>${tweetObj.content.text}</p>
+          <p>${escape(tweetObj.content.text)}</p>
           <footer>
-            <p>${tweetObj.created_at}</p>
+            <p>${timeago.format(tweetObj.created_at)}</p>
             <div>
               <i class="fas fa-flag"></i>
               <i class="fas fa-retweet"></i>
@@ -35,7 +35,6 @@ $(document).ready(function() {
   $tweet.append(html);
   return $tweet;
 };
-
 
 const renderTweets = function(tweetArr) {
   for (const tweet of tweetArr) {
@@ -60,14 +59,26 @@ $('#submit-form').submit(function(event) {
   const newTweetText = $(this).find('textarea').val();
 
   if (!newTweetText) {
-    alert('Did you even type anything?');
+    $('#noText')
+    .slideDown('slow')
+    setTimeout(() => {
+      $('#noText').slideUp('slow');
+    }, 2500)
+    
   } else if (newTweetText.length > 140) {
-    alert('Woah, settle down there! You went over the character limit!');
+    $('#tooLong')
+    .slideDown('slow')
+    setTimeout(() => {
+      $('#tooLong').slideUp('slow');
+    }, 2500)
   } else {
   const textStr = $('#submit-form').serialize();
   $.post('/tweets/', textStr, function() {
     loadTweets();
-  })
+  });
+  $('textarea').val('');
+  $('.counter').text('140');
+
 }
 });
 

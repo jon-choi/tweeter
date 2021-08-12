@@ -57,7 +57,8 @@
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form id="submit-form" method="POST" action="/tweets/">
-          <!-- <label for="tweet-text">What are you humming about?</label> -->
+          <div id="tooLong"><span>&#9888;</span>Woah, settle down there, tiger! You're over the character limit!</div>
+          <div id="noText"><span>&#9888;</span>Did you even type anything?</div>
           <textarea name="text" id="tweet-text" rows="1" placeholder="What are you humming about?"></textarea>
             <button id="submit-tweet" type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
