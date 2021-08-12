@@ -10,8 +10,15 @@ This repository is the starter code for the project: Students will fork and clon
 2. Install dependencies using the `npm install` command.
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
+5. Got something on your mind? It's as easy as a click of a button. Click the arrow in the nav bar to get started.
+6. Keep your thoughts concise! You only have 140 characters to do so. 
+7. Please keep it PG if you can. :)
 
 ## Dependencies
 
 - Express
 - Node 5.10.x or above
+- MD5
+- Chance
+- Body Parser
+- Nodemon
