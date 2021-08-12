@@ -17,15 +17,19 @@ This repository is the starter code for the project: Students will fork and clon
 ## Screenshots
 
 !['A view of the desktop screen with some amazing tweets!'](https://github.com/jon-choi/tweeter/blob/bb29494bd9b7604c4e2c96bc965c2f775adcdc84/docs/Desktop-View.png)
+    
     Here's a view of the desktop screen. With some tweets from our amazing users!
 
 !['A shot of someone trying to submit a tweet without typing anything.'](https://github.com/jon-choi/tweeter/blob/master/docs/Error-Message-No-Text.png?raw=true)
+    
     This is a shot of someone trying to tweet something without even writing anything.
 
 !['A shot of someone going over the character limit.'](https://github.com/jon-choi/tweeter/blob/master/docs/Error-Message-Too-Long.png?raw=true)
+    
     Here's a shot of someone who has too much to say.
 
 !['A shot of how the page looks on a tablet.'](https://github.com/jon-choi/tweeter/blob/master/docs/Tablet-View.png?raw=true)
+    
     Here's how the page looks when it's opened on a tablet.
 ## Dependencies
 
